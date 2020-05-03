@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Log in here </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <br>
+  <div class="row justify-content-center align-items-center" style="height:100%">
+  <div class="col-md-5" >
+  <h2 style="font-size: 200%; color:red"> Login Here: </h2>
+  <h6>Don't have account... <a href="signup.html">Sign Up here</a></h6>
+  <h6> <a href="index.html"><-<-Or Go to Home</a></h6>
+  <!-- This is card -->
+  <div class="card bg-dark text-white">
+  <div class="card-body">
+    <!-- This is form -->
+  <form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="username" data-toggle="Please enter username" title="Please enter username">Username :</label>
+      <input type="username" class="form-control" id="username" placeholder="Enter Username" name="username" required>
+      <div class="valid-feedback">Valid</div>
+      <div class="invalid-feedback">Please fill out this.</div>
+      <a href="#" data-toggle="modal" data-target="#myModal1">
+    forget Username
+  </a>
+   <!-- The Modal -->
+  <div class="modal" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"style="font-size: 150%; color:red;"> Forget Useername:</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+  <!-- Modal body -->
+  <!-- This is card -->
+  <div class="card bg-info text-white">
+  <div class="card-body">
+    <!-- This is form -->
+  <form action="/action_page.php" class="was-validated">
+    
+    <div class="form-group">
+      <label for="mobile no"
+         data-toggle="password will be sent in your email !!" title="password will be sent in your registered email no!!">Registered Mobile No : 
+      </label>
+      <input type="mobile no" class="form-control" id="mob" placeholder="Enter mobile no" name="mobn" required>
+      <div class="valid-feedback">Valid</div>
+      <div class="invalid-feedback">Please fill out this.</div>
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> fill this
+      </label>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+    <br>
+  </form>
+  <!-- End of form -->
+</div>
+</div>
+</div>
+</div></div></div>
+    <div class="form-group">
+      <label for="pwd"
+         data-toggle="Please enter your Password here!!" title="Please enter your Password here!!">Password : 
+      </label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid</div>
+      <div class="invalid-feedback">Please fill out this.</div>
+      <a href="#" data-toggle="modal" data-target="#myModal">
+    forget password
+  </a>
+    <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"style="font-size: 150%; color:red;"> Forget password:</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+  <!-- Modal body -->
+  <!-- This is card -->
+  <div class="card bg-info text-white">
+  <div class="card-body">
+    <!-- This is form -->
+  <form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="email" data-toggle="Please enter registered email id" title="password will be sent in your registered email  !!">Email :</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+      <div class="valid-feedback">Valid</div>
+      <div class="invalid-feedback">Please fill out this.</div>
+    </div>
+    <div class="form-group">
+      <label for="mobile no"
+         data-toggle="password will be sent in your registered email !!" title="password will be sent in your registered mobile no!!">Registered Mobile No : 
+      </label>
+      <input type="mobile no" class="form-control" id="mob" placeholder="Enter mobile no" name="mobn" required>
+      <div class="valid-feedback">Valid</div>
+      <div class="invalid-feedback">Please fill out this.</div>
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> fill this
+      </label>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+  <!-- End of form -->
+</div>
+</div>
+<!-- End of modal -->
+        
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+  <!-- End of form -->
+</div>
+</div>
+<!-- End of card -->
+</div>
+</div>
+</div>
+
+</body>
+</html>

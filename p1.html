@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>page1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  
+  nav.arka {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7; /* border in navbar */
+  background-color: #3c3c3c;
+  font-family:"Segoe UI" ,Arial ,sans-serif;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ffffff; /* this is for the text colour in the navbar */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* this is for toggle */
+li a:hover:not(.active) {
+  background-color: rgb(47, 171, 224);
+}
+
+li a.active {
+  color: white;
+  background-color: #6a5acd;
+}
+/* end of horizntal Navbar 
+ 
+ this is begining of sidebar */
+
+.sidebar {
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 6px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: rgb(47, 171, 224);
+}
+
+@media screen and (max-width:600px) {
+  .sidebar {padding-top: 15px;
+  }
+  .sidebar a {font-size: 15px;}
+  /*For small screen Navbar */
+  .col-sm-2  {width: 25%;}
+  .col-sm-9 {width: 70%;}
+  
+}
+  </style>
+</head>
+<body>
+
+<div class=" text-center" style="margin-bottom:5px;height:50px;background-color: rgb(255, 255, 183);">
+  <h4 style="color:rgb(227, 38, 97);">Welcome to "We Can Speak", the World of Communication Skills...</h4>
+</div>
+
+<!-- navbar -->
+ 
+<nav class="navbar navbar-expand-md arka">
+ 
+<li><img src="Logo.jpeg" alt="logo" style="width:60px;"></li>
+<!--Ths is for button -->
+<button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#abc">
+<span class="navbar-toggler-icon"></span> 
+</button>
+<!--The items in <div></div> will be colupsed when the screen will be at mobile view -->
+<div class="collapse navbar-collapse justify-content-between" id="abc">
+<ul class="navbar-nav">
+<li class="nav-item" >
+ 
+<a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+ 
+<li class="nav-item"><a href="home.html"><i class="fa fa-fw fa fa-arrows"></i>Other Course</a></li>
+<li class="nav-item"><a  href="abus.html">About Us</a></li>
+<li class=" nav-item "><a href="login.html"><i class="fa fa-fw fa-user"></i>Log in</a></li>
+</ul>
+</div>
+  <li style="float:right"><a class="active " href="signup.html"><i class="fa fa-fw fa-user-plus"></i>sign up</a></li>
+</ul>
+</nav>
+
+<!-- Start of vartical navbar -->
+
+<div class="container-fluid " style="margin-top:5px; float: left; ">
+  <div class="row" >
+    <div class="col-sm-2 sidebar ">
+  <a href="p1.html">Introdruction</a>
+  <a href="p2.html">Improve English speaking & communication</a>
+  <a href="tutorial2">Tutorial 2</a>
+  <a href="tutorial3">Tutorial 3</a>
+      
+    </div>
+    <div class="col-sm-9 ">
+      <br>
+      <h2> Introduction </h2>
+      <br>
+      <p>
+<b>Language is “the infinite use of finite means.” W.V. Humboldt.</b></p>
+<p>
+The above quote means a lot to you and to your initiative to learn English. This means that great ideas of the world can be expressed through a small creation of man, the language.</p>
+<p> Hi, we are (website name) and we are going to help you learn, train and build up on your communication, writing, grammar, analytical and accent understanding skills.</p>
+<p>
+Remember the greatest way to learn English is to have fun with it. And the fun comes when you know you’re motivated to learn English. If you are looking for motives here are some that you may consider reading:-
+</p>
+<p><b>1.  You can be a bi/multilingual brain.</b></p>
+<p>
+Having a bi/multilingual brain can be of huge advantage when it comes to cognitive system.</p>
+<p>It develops your brain by making it active.</p>
+<p> You are more likely to switch between two languages when you hear any word. Or a sentence without even noticing. This provides you with the vital mental agility...</p>
+<p><b>2.  Your brain gets better in conflict management if it is trained more than one language.</b></p>
+<h6>Lastly and most importantly</h6>
+<p>3.  One of the most important advantages in the current society are job advantages. Learning a new language especially English can open up a vast spectrum of opportunities.
+Have fun learning. </p>
+<h6><a href="signup.html">If you want more tutorials and daily motivational writing, please sign up into our website.</a></h6>  
+
+
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
